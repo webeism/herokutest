@@ -1,7 +1,7 @@
 <?php
 // Testing config vars in heroku
 
-$strTestVal = genenv("strTestVar");
+$strTestVal = getenv("strTestVar");
 
 echo "strTestVal: #####" . $strTestVal . "######";
 
